@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Malicious URL Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  </head>
+  <body>
+    <h2>Malicious URL Detector</h2>
+    <input type="text" id="urlInput" placeholder="Enter URL here" />
+    <button onclick="makePrediction()" id="pred-button">Predict</button>
+    <p id="result"></p>
+    <button onclick="clearPrediction()" id="clear-button">Clear</button>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

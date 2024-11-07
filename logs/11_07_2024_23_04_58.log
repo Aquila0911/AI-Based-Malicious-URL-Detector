@@ -1,0 +1,11 @@
+[ 2024-11-07 23:05:00,450 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-11-07 23:05:00,454 ] 97 werkzeug - INFO -  * Debugger PIN: 125-551-039
+[ 2024-11-07 23:05:19,751 ] 97 werkzeug - INFO - 127.0.0.1 - - [07/Nov/2024 23:05:19] "GET / HTTP/1.1" 200 -
+[ 2024-11-07 23:05:19,892 ] 97 werkzeug - INFO - 127.0.0.1 - - [07/Nov/2024 23:05:19] "GET /static/styles.css HTTP/1.1" 200 -
+[ 2024-11-07 23:05:19,893 ] 97 werkzeug - INFO - 127.0.0.1 - - [07/Nov/2024 23:05:19] "GET /static/script.js HTTP/1.1" 200 -
+[ 2024-11-07 23:05:19,903 ] 97 werkzeug - INFO - 127.0.0.1 - - [07/Nov/2024 23:05:19] "GET /static/script.js HTTP/1.1" 200 -
+[ 2024-11-07 23:05:19,925 ] 97 werkzeug - INFO - 127.0.0.1 - - [07/Nov/2024 23:05:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-11-07 23:05:20,701 ] 97 werkzeug - INFO - 127.0.0.1 - - [07/Nov/2024 23:05:20] "POST /predict HTTP/1.1" 200 -
+[ 2024-11-07 23:05:26,076 ] 97 werkzeug - INFO - 127.0.0.1 - - [07/Nov/2024 23:05:26] "POST /predict HTTP/1.1" 200 -
+[ 2024-11-07 23:05:40,196 ] 97 werkzeug - INFO - 127.0.0.1 - - [07/Nov/2024 23:05:40] "POST /predict HTTP/1.1" 200 -
+[ 2024-11-07 23:06:11,452 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Studies\\MIT Manipal\\Course\\Semester 5\\IS\\AI-Based-Malicious-URL-Detector\\app.py', reloading

@@ -1,0 +1,3 @@
+[ 2024-11-07 23:06:14,234 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-11-07 23:06:14,238 ] 97 werkzeug - INFO -  * Debugger PIN: 125-551-039
+[ 2024-11-07 23:06:17,279 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Studies\\MIT Manipal\\Course\\Semester 5\\IS\\AI-Based-Malicious-URL-Detector\\app.py', reloading
