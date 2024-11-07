@@ -8,11 +8,14 @@ async function makePrediction() {
   const result = await response.json();
   const resultElement = document.getElementById("result");
   
-  // Apply different colors based on the prediction
-  if (result.prediction === "safe") {
-    resultElement.innerHTML = `Prediction: <span style="color: green;">${result.prediction}</span>`;
+  if (result.reason === 'XSS detected') {
+    resultElement.innerHTML = `Prediction: <span style="color: red;">malicious</span><br>Reason: <span style="color: red;">${result.reason}</span><br>Patterns: <span style="color: yellow;">${result.patterns.join(', ')}</span>`;
   } else {
-    resultElement.innerHTML = `Prediction: <span style="color: red;">${result.prediction}</span>`;
+    if (result.prediction === "safe") {
+      resultElement.innerHTML = `Prediction: <span style="color: green;">${result.prediction}</span>`;
+    } else {
+      resultElement.innerHTML = `Prediction: <span style="color: red;">${result.prediction}</span>`;
+    }
   }
 }
 
